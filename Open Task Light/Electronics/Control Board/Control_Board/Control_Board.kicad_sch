@@ -5,6 +5,146 @@
 	(uuid "717451e5-2b4d-441f-928f-36128e08bfea")
 	(paper "User" 422.0718 261.0358)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -883,6 +1023,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener_Filled"
 			(pin_numbers
 				(hide yes)
@@ -1396,387 +1702,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OTL_Import-eagle-import:2.5mm-plated-through-hole_vf.mf-xDpjkSn6krzUzkZIXjA_2.5MMPLATEDTHROUGHHOLE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "OTL_Import:2.5MMPLATEDHOLE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.5mm-plated-through-hole_vf.mf-xDpjkSn6krzUzkZIXjA_2.5MMPLATEDTHROUGHHOLE_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.4441)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "P$1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OTL_Import-eagle-import:Diodes_vf.ReqFR3WWTOaeHyFqncs7zQ_PMEG4010EGWX"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -2.286 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.286 -3.429 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "OTL_Import:SOD-123"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010EGW.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DIODE SCHOTTKY 40V 1A SOD123"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MANUFACTURER" "Nexperia"
-				(at 0 -4.953 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "PMEG4010EGWX"
-				(at 0 -6.477 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Diodes_vf.ReqFR3WWTOaeHyFqncs7zQ_PMEG4010EGWX_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -3952,6 +3877,12 @@
 		(uuid "03ba189b-6be4-4396-8085-13318ea0101a")
 	)
 	(junction
+		(at 86.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f72d5c-d902-4acc-8993-34a2af670d26")
+	)
+	(junction
 		(at 92.71 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3992,12 +3923,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a35a757-af2f-42c4-ac76-89b20ee19b9f")
-	)
-	(junction
-		(at 86.36 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5715b178-05f7-4a7b-b844-4e510a68ff28")
 	)
 	(junction
 		(at 331.47 172.72)
@@ -4088,6 +4013,10 @@
 		(uuid "061642ae-5485-463d-903d-6c033abaf514")
 	)
 	(no_connect
+		(at 201.93 142.24)
+		(uuid "06cb3b53-cd41-485d-abe5-9c21cb554488")
+	)
+	(no_connect
 		(at 157.48 115.57)
 		(uuid "11406a75-c7ac-46cc-afae-03c38ff57345")
 	)
@@ -4110,10 +4039,6 @@
 	(no_connect
 		(at 124.46 123.19)
 		(uuid "41069574-8697-402d-8513-4a54aa1b85dc")
-	)
-	(no_connect
-		(at 194.31 143.51)
-		(uuid "475c99cb-d4ef-482a-8411-92d3a375b480")
 	)
 	(no_connect
 		(at 260.35 67.31)
@@ -4988,16 +4913,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 76.2 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a86e9218-cedf-42b3-b77d-acfa8110ff3a")
-	)
-	(wire
-		(pts
 			(xy 331.47 180.34) (xy 331.47 179.07)
 		)
 		(stroke
@@ -5008,13 +4923,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 63.5 119.38)
+			(xy 78.74 119.38) (xy 86.36 119.38)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "ae06bd35-5c84-4842-bcad-c91341c9b0ad")
+		(uuid "aa8690a5-9bc9-4355-ad40-fa273330ff9c")
 	)
 	(wire
 		(pts
@@ -5255,6 +5170,16 @@
 			(type solid)
 		)
 		(uuid "d8e3ec95-34df-4700-a244-ef901abb81c7")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8c9cd2-6c8a-4681-9ade-d498fb256b61")
 	)
 	(wire
 		(pts
@@ -5857,6 +5782,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b58d355-1295-4d35-9faa-b4386f24c7bd")
 		)
@@ -5973,6 +5920,28 @@
 		)
 		(property "Peak Power" "400W"
 			(at 157.734 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 152.4 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 152.4 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6358,6 +6327,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 292.1 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 292.1 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aeed5d61-7960-4377-a3aa-a7799d2220ad")
 		)
@@ -6539,6 +6530,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 306.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 306.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c62b2e4e-8b93-47d2-a907-8853706d3c89")
 		)
@@ -6695,6 +6708,28 @@
 			)
 		)
 		(property "MPN" "2200970271"
+			(at 340.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 340.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
 			(at 340.36 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6928,6 +6963,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 217.17 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 217.17 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3ce67ee-7e94-43b2-8525-1d8d380c35ae")
 		)
@@ -7031,6 +7088,28 @@
 			)
 		)
 		(property "Max Output Currents" "1 A"
+			(at 181.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 181.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7225,6 +7304,28 @@
 				(justify left bottom)
 			)
 		)
+		(property "Average Current" ""
+			(at 77.47 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 77.47 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8f68f6d-1cc9-4a2b-b3f1-0ab4717902b2")
 		)
@@ -7335,6 +7436,28 @@
 				(justify left bottom)
 			)
 		)
+		(property "Average Current" ""
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1d40171d-3fd3-4c40-8334-2988ba3a2e75")
 		)
@@ -7440,6 +7563,119 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 74.93 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48756877-4ccf-437b-b127-74ce66aec154")
+		(property "Reference" "D1"
+			(at 75.184 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG4010EGWX"
+			(at 75.2475 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PMEG4010EGWX"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "222e6b81-3610-43ae-b1d3-6e319bbea774")
+		)
+		(pin "2"
+			(uuid "d55e64b6-7252-4ba3-acd7-c58b3e6ad82a")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7677,6 +7913,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "9ab60c27-3774-4f17-901b-cda1f7bf7052")
 		)
@@ -7741,7 +7999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7837,6 +8095,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 92.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 92.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c2fe814-a0b7-4584-b022-41c307945db6")
 		)
@@ -7886,7 +8166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.486 119.634 90)
 			(hide yes)
 			(show_name no)
@@ -7973,6 +8253,28 @@
 		)
 		(property "Package" "1206"
 			(at 208.788 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 204.47 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8085,6 +8387,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 378.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 378.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bccb8d86-f9af-4802-a342-3919b48918b9")
 		)
@@ -8092,121 +8416,6 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "-BTN0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OTL_Import-eagle-import:Diodes_vf.ReqFR3WWTOaeHyFqncs7zQ_PMEG4010EGWX")
-		(at 73.66 119.38 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55f7f95e-dae5-4659-a965-cd6d15c837f4")
-		(property "Reference" "D1"
-			(at 72.136 115.316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PMEG4010EGWX"
-			(at 71.374 115.951 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "OTL_Kicad_FP_Lib:SOD-123"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 73.66 127.381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PMEG4010EGWX"
-			(at 73.66 128.905 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Current" "1 A"
-			(at 73.914 122.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "3e5b2e01-559c-4bf4-a4c5-c2763e985895")
-		)
-		(pin "C"
-			(uuid "c9e4b9fc-0ab7-471f-a3ec-660566ab0dab")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8247,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.8748 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8334,6 +8543,28 @@
 		)
 		(property "Temp Rating" "X7R"
 			(at 243.84 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,6 +8719,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f429e8ee-834c-4579-b569-c0c642c69f1a")
 		)
@@ -8538,7 +8791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.104 119.634 90)
 			(hide yes)
 			(show_name no)
@@ -8633,6 +8886,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b161f484-c8f3-497b-82b8-50f33ff8d5c6")
 		)
@@ -8682,7 +8957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.536 132.334 90)
 			(hide yes)
 			(show_name no)
@@ -8769,6 +9044,28 @@
 		)
 		(property "Package" "1206"
 			(at 354.838 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 350.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 350.52 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9035,6 +9332,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 233.68 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 233.68 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94bc1771-6e06-4587-9292-d1d0071cb8bd")
 		)
@@ -9158,7 +9477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 279.654 118.364 90)
 			(hide yes)
 			(show_name no)
@@ -9245,6 +9564,28 @@
 		)
 		(property "Package" "1206"
 			(at 280.162 130.048 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 279.4 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 279.4 119.38 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9355,6 +9696,28 @@
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Average Current" ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -9525,6 +9888,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 342.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 342.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39ab463d-64a8-42af-b6e0-4e87dfec0078")
 		)
@@ -9583,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OTL_Kicad_FP_Lib:CONN_807-22-001-10-001101_MIM"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 262.89 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9606,6 +9991,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 262.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 262.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
 			(at 262.89 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9773,6 +10180,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "526f424e-d264-4e03-a2c7-c63a1ca96ceb")
 		)
@@ -9861,88 +10290,6 @@
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "#PWR07")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OTL_Import-eagle-import:2.5mm-plated-through-hole_vf.mf-xDpjkSn6krzUzkZIXjA_2.5MMPLATEDTHROUGHHOLE")
-		(at 194.31 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f13b030-93c9-4f18-9dda-099997bd344d")
-		(property "Reference" "U$2"
-			(at 194.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.5MMPLATEDTHROUGHHOLE"
-			(at 194.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OTL_Kicad_FP_Lib:2.5MMPLATEDHOLE"
-			(at 194.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "P$1"
-			(uuid "b26adc0f-e536-4b70-b74e-688040616aa8")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "U$2")
-					(unit 1)
-					(variant
-						(name "Production")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -10154,6 +10501,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 210.82 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 210.82 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f477dcb-4145-4887-a0af-2e00a7c30645")
 		)
@@ -10203,7 +10572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.2552 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10299,6 +10668,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 161.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 161.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1c69f26-62cb-42b0-acf9-707df0b56387")
 		)
@@ -10368,6 +10759,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 196.85 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
 			(at 196.85 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10524,6 +10937,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 86.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 86.36 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e720c710-416a-45e4-a97e-fae0d95ced11")
 		)
@@ -10574,7 +11009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.4548 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10661,6 +11096,28 @@
 		)
 		(property "Temp Rating" "X7R"
 			(at 185.42 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 185.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 185.42 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11072,6 +11529,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 196.85 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acd99ee1-458a-46e3-830c-08e2983ad50d")
+		(property "Reference" "MH1"
+			(at 199.898 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5MMPLATEDTHROUGHHOLE"
+			(at 197.485 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OTL_Kicad_FP_Lib:2.5MMPLATEDHOLE"
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "310dbef6-a592-4e21-9b83-74530616b88d")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 185.42 0)
 		(unit 1)
@@ -11414,7 +11970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 330.5048 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11501,6 +12057,28 @@
 		)
 		(property "Temp Rating" "X7R"
 			(at 331.47 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 331.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 331.47 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,6 +12221,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 132.08 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 132.08 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0361e7c2-d768-4052-bbaa-2edd68e26a15")
 		)
@@ -11758,6 +12358,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 328.93 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 328.93 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8c5494de-6f2a-47f1-84e8-f09816f1b79b")
 		)
@@ -11858,6 +12480,28 @@
 			)
 		)
 		(property "MPN" "CES-107-01-G-S"
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 152.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
 			(at 152.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12130,6 +12774,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fd7bca6-4a91-4d5f-97c2-db62de7e9b49")
 		)
@@ -12265,6 +12931,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01696615-a29d-4660-b139-406dd1018c74")
 		)
@@ -12314,7 +13002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 230.8352 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12401,6 +13089,28 @@
 		)
 		(property "Temp Rating" "X7R"
 			(at 229.87 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 229.87 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12711,6 +13421,28 @@
 				)
 			)
 		)
+		(property "Average Current" ""
+			(at 363.22 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 363.22 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e96879c-ee61-4058-8983-95e270b02510")
 		)
@@ -12761,7 +13493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.3848 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12848,6 +13580,28 @@
 		)
 		(property "Temp Rating" "X7R"
 			(at 260.35 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Average Current" ""
+			(at 260.35 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 260.35 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
