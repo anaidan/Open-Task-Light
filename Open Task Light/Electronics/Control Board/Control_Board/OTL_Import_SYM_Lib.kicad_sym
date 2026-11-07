@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "807-22-001-10-001101"
-			(at 0 0 0)
+			(at 5.842 -14.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "OTL_Kicad_FP_Lib:CONN_807-22-001-10-001101_MIM"
-			(at 0 0 0)
+			(at 8.128 -12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 		(property "MPN" "807-22-001-10-001101"
-			(at 0 0 0)
+			(at -8.636 -9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -97,30 +97,6 @@
 			)
 		)
 		(symbol "807-22-001-10-001101_vf.PdxbpvTpT9S-Ni5W7W4N2w_807-22-001-10-001101CONN_807-22-001-10-001101_MIM_1_0"
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 12.7 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 10.16 0) (xy 5.08 0)
@@ -157,30 +133,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -2.54) (xy 12.7 2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
@@ -195,6 +147,204 @@
 					(effects
 						(font
 							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+		(symbol "807-22-001-10-001101_vf.PdxbpvTpT9S-Ni5W7W4N2w_807-22-001-10-001101CONN_807-22-001-10-001101_MIM_1_1"
+			(rectangle
+				(start 5.715 2.54)
+				(end 13.335 -2.54)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MCP4716"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 2.54 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4716"
+			(at -3.556 -13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MCP4716_0_1"
+			(rectangle
+				(start -7.62 9.525)
+				(end 7.62 -12.065)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MCP4716_1_1"
+			(pin unspecified line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -10.16 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -308,54 +458,6 @@
 			)
 		)
 		(symbol "R-78K5.0-1.0_1_0"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -7.62) (xy 33.02 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -7.62) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 2.54 0 0)
 				(length 5.08)
@@ -408,6 +510,20 @@
 							(size 1.524 1.524)
 						)
 					)
+				)
+			)
+		)
+		(symbol "R-78K5.0-1.0_1_1"
+			(rectangle
+				(start 7.62 3.81)
+				(end 33.02 -5.715)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
@@ -508,54 +624,6 @@
 			)
 		)
 		(symbol "TMP75AQDRQ1_vf.lFEcbYMuSFyx4BNqXM383A_TMP75AQDRQ1D8_TEX_1_0"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -12.7) (xy 33.02 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -12.7) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
 				(at 2.54 0 0)
 				(length 5.08)
@@ -701,6 +769,20 @@
 				)
 			)
 		)
+		(symbol "TMP75AQDRQ1_vf.lFEcbYMuSFyx4BNqXM383A_TMP75AQDRQ1D8_TEX_1_1"
+			(rectangle
+				(start 7.62 3.175)
+				(end 33.02 -10.795)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "TS12A4515D_vf.RgGt0mQTREaw28ik6hFsYA_TS12A4515DD8-L"
@@ -710,7 +792,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U1"
-			(at 7.874 9.144 0)
+			(at -20.066 12.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -721,7 +803,7 @@
 			)
 		)
 		(property "Value" "TS12A4515D"
-			(at 7.62 5.588 0)
+			(at -20.32 9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -732,7 +814,7 @@
 			)
 		)
 		(property "Footprint" "OTL_Kicad_FP_Lib:D8-L"
-			(at 0 0 0)
+			(at 20.066 -18.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -765,7 +847,7 @@
 			)
 		)
 		(property "MPN" "TS12A4515D"
-			(at 0 0 0)
+			(at 8.636 -22.352 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -777,7 +859,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 23.2146 -6.096 0)
+			(at 18.034 -16.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -809,56 +891,8 @@
 			)
 		)
 		(symbol "TS12A4515D_vf.RgGt0mQTREaw28ik6hFsYA_TS12A4515DD8-L_1_0"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -12.7) (xy 48.26 -12.7)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 -12.7) (xy 48.26 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
-				(at 2.54 0 0)
+				(at -16.51 3.81 0)
 				(length 5.08)
 				(name "COM"
 					(effects
@@ -876,7 +910,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -2.54 0)
+				(at -16.51 1.27 0)
 				(length 5.08)
 				(name "NC_2"
 					(effects
@@ -894,7 +928,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 0)
+				(at -16.51 -1.27 0)
 				(length 5.08)
 				(name "NC_3"
 					(effects
@@ -912,7 +946,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -7.62 0)
+				(at -16.51 -3.81 0)
 				(length 5.08)
 				(name "V+"
 					(effects
@@ -930,7 +964,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 -7.62 180)
+				(at 16.51 -3.81 180)
 				(length 5.08)
 				(name "NC_4"
 					(effects
@@ -948,7 +982,7 @@
 				)
 			)
 			(pin input line
-				(at 53.34 -5.08 180)
+				(at 16.51 -1.27 180)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -966,7 +1000,7 @@
 				)
 			)
 			(pin power_in line
-				(at 53.34 -2.54 180)
+				(at 16.51 1.27 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -984,7 +1018,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 0 180)
+				(at 16.51 3.81 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -999,6 +1033,20 @@
 							(size 1.524 1.524)
 						)
 					)
+				)
+			)
+		)
+		(symbol "TS12A4515D_vf.RgGt0mQTREaw28ik6hFsYA_TS12A4515DD8-L_1_1"
+			(rectangle
+				(start -11.43 6.35)
+				(end 11.43 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
@@ -1099,54 +1147,6 @@
 			)
 		)
 		(symbol "VEML7700-TR_vf.OXUw97-tQJKe5WBdD3nTvA_VEML7700-TR_1_0"
-			(polyline
-				(pts
-					(xy -7.62 10.16) (xy 7.62 10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -7.62) (xy -7.62 10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 10.16) (xy 7.62 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -7.62) (xy -7.62 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input clock
 				(at -12.7 2.54 0)
 				(length 5.08)
@@ -1217,6 +1217,20 @@
 							(size 1.524 1.524)
 						)
 					)
+				)
+			)
+		)
+		(symbol "VEML7700-TR_vf.OXUw97-tQJKe5WBdD3nTvA_VEML7700-TR_1_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
@@ -1317,54 +1331,6 @@
 			)
 		)
 		(symbol "[DRIVER]RCD-24-0.70_Vref_vf.xL-8JYjTRVy-J5S12aLTOQ_RCD-24-0.70_VREF_1_0"
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 5.08 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 40.64 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40.64 -10.16) (xy 5.08 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40.64 -10.16) (xy 40.64 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 0 0)
 				(length 5.08)
@@ -1471,6 +1437,20 @@
 							(size 1.524 1.524)
 						)
 					)
+				)
+			)
+		)
+		(symbol "[DRIVER]RCD-24-0.70_Vref_vf.xL-8JYjTRVy-J5S12aLTOQ_RCD-24-0.70_VREF_1_1"
+			(rectangle
+				(start 5.08 1.905)
+				(end 40.64 -9.525)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
