@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8fe4e327-00ad-4c09-81f8-c077286b57b7")
+		(uuid "486aecb1-0fea-4b99-af48-d69c60841f1d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c11170fa-e61d-4590-b52c-9b003ac7f632")
+		(uuid "52fda47d-0d05-46dc-9197-03fc58710d45")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f336d61-3c09-4a56-b5e4-659b81a2afdc")
+		(uuid "e5daabe5-5b8f-4485-847a-43826544804b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5eaf800d-3bec-4295-99df-b39a64404060")
+		(uuid "ac1f7792-35fb-448a-9b0d-57ca2a1b8af0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9957ba1-c5b1-4807-8905-aa52a13bd48c")
+		(uuid "6cb8b4a4-f7b8-4e39-ac15-e8058f312d4b")
 		(effects
 			(font
 				(size 1 1)
@@ -69,7 +69,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16d4d7ec-995c-435f-b444-89132bf6ff14")
+		(uuid "83b84bd2-48e8-4024-b666-e78fdefc73c8")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +82,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3d15c53-728d-4ce6-b668-62ebdda7093b")
+		(uuid "5172ef96-6987-4d40-b663-bf3cb757164f")
 		(effects
 			(font
 				(size 1 1)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "55c0b2f1-97ab-494a-806c-ff67487f69a7")
+		(uuid "3a159502-c24c-4603-bdef-ed2a7535c612")
 	)
 	(fp_arc
 		(start 0 -1.397)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7023ab3d-5396-4ad9-8a32-927125db46a7")
+		(uuid "fcf00ff8-2dda-45ab-a836-cb410323e8b7")
 	)
 	(fp_arc
 		(start 0 1.397)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "efc6f09c-f69f-42ba-aacd-4b516783b194")
+		(uuid "2b33beef-40d7-4942-859c-2be82fc14f0b")
 	)
 	(fp_arc
 		(start 1.397 0)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0cefb351-51ca-4c82-8030-4b35d182a6ab")
+		(uuid "d9835b05-0658-406a-b5fd-e7981d4a9612")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -146,7 +146,7 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "4c9c876b-a030-4572-81fe-e6ff487242f6")
+		(uuid "4561b7ca-7040-4a0f-9400-9f35473f253e")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D_Models/MM #807-22-001-10-001101.STEP"
