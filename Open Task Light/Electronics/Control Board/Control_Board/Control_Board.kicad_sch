@@ -3703,7 +3703,7 @@
 	)
 	(text "uC + Analog Switch"
 		(exclude_from_sim no)
-		(at 82.296 151.13 0)
+		(at 66.802 152.4 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -5731,6 +5731,28 @@
 				)
 			)
 		)
+		(property "DPN" "AT42QT1010-TSHRCT-ND"
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AT42QT1010-TSHR"
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b58d355-1295-4d35-9faa-b4386f24c7bd")
 		)
@@ -5867,6 +5889,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 152.4 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "18-SMF4L24AT1GCT-ND"
 			(at 152.4 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -6124,174 +6157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 292.1 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c1eab40-c74c-441f-a63b-05f98fbbaabd")
-		(property "Reference" "R6"
-			(at 290.322 174.498 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_US"
-			(at 292.608 177.038 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 292.354 178.054 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 292.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 292.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 292.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "470 Ohms"
-			(at 287.02 176.276 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5 %"
-			(at 290.83 172.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp Co" "100 ppm/C"
-			(at 294.64 174.244 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 295.402 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Current" ""
-			(at 292.1 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 292.1 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeed5d61-7960-4377-a3aa-a7799d2220ad")
-		)
-		(pin "2"
-			(uuid "5e898b37-ccbb-4efe-938b-545421812f3c")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 77.47 0)
 		(unit 1)
@@ -6479,6 +6344,17 @@
 				)
 			)
 		)
+		(property "DPN" "ED1409-ND"
+			(at 306.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c62b2e4e-8b93-47d2-a907-8853706d3c89")
 		)
@@ -6590,6 +6466,17 @@
 				)
 			)
 		)
+		(property "DPN" "900-2200970271-ND"
+			(at 340.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6b94300-8864-4d4a-8272-49201049e9ad")
 		)
@@ -6600,6 +6487,162 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "MICROLOCK-VERTICAL0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 356.87 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23e80609-a369-4ab2-9d11-4e9575b83c65")
+		(property "Reference" "C12"
+			(at 359.664 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 360.68 185.4199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 357.8352 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C472K5RACTU"
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Ceramic"
+			(at 356.87 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "4.7nF"
+			(at 362.204 184.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 362.204 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 362.204 186.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp Rating" "X7R"
+			(at 356.87 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C472K5RACTUCT-ND"
+			(at 356.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2abeeda-5036-4e5a-929d-e119e635664d")
+		)
+		(pin "2"
+			(uuid "8025d785-64b7-48d6-b037-ca44c8c68462")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6749,7 +6792,7 @@
 				)
 			)
 		)
-		(property "Field5" ""
+		(property "MPN" "RC0603JR-0710KL"
 			(at 217.17 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6760,18 +6803,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 217.17 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "470 Ohms"
+		(property "Resistance" "10 kOhms"
 			(at 212.09 176.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6813,18 +6845,7 @@
 				)
 			)
 		)
-		(property "Average Current" ""
-			(at 217.17 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
+		(property "DPN" "311-10KGRCT-ND"
 			(at 217.17 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -6960,6 +6981,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 181.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "945-R-78K5.0-1.0-ND"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7176,6 +7208,17 @@
 				)
 			)
 		)
+		(property "DPN" "VEML7700CT-ND"
+			(at 77.47 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8f68f6d-1cc9-4a2b-b3f1-0ab4717902b2")
 		)
@@ -7308,6 +7351,17 @@
 				)
 			)
 		)
+		(property "DPN" "296-46898-2-ND"
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "1d40171d-3fd3-4c40-8334-2988ba3a2e75")
 		)
@@ -7336,6 +7390,152 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 363.22 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32ded352-8155-423a-87e5-5df51b41017d")
+		(property "Reference" "R7"
+			(at 361.442 174.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_US"
+			(at 363.728 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 363.474 178.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603JR-0710KL"
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10 kOhms"
+			(at 358.14 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5 %"
+			(at 361.95 172.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp Co" "100 ppm/C"
+			(at 365.76 174.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 366.522 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "311-10KGRCT-ND"
+			(at 363.22 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c23f9d-54b9-40a0-8c05-b04ac8ddfc9e")
+		)
+		(pin "2"
+			(uuid "c755391b-558c-4511-9e98-d4e5d8a85554")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7439,7 +7639,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010EGWX"
+		(property "Value" "1N5819HW-7-F"
 			(at 60.0075 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7483,7 +7683,7 @@
 				)
 			)
 		)
-		(property "MPN" "PMEG4010EGWX"
+		(property "MPN" "1N5819HW-7-F"
 			(at 59.69 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7506,6 +7706,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 59.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "1N5819HW-FDICT-ND"
 			(at 59.69 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7675,7 +7886,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 92.71 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7750,6 +7961,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 92.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 92.71 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7853,7 +8075,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206JR-075K6L"
+		(property "MPN" "AC0603JR-075K6L"
 			(at 204.47 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7916,6 +8138,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 204.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "YAG3683CT-ND"
 			(at 204.47 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8042,6 +8275,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 378.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "ED1409-ND"
 			(at 378.46 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8209,7 +8453,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8294,6 +8538,17 @@
 				)
 			)
 		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb718e12-00d4-4441-b8ff-5e417c1a4550")
 		)
@@ -8304,173 +8559,6 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 285.75 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62266ddd-2d7b-423d-90ef-e5478765d878")
-		(property "Reference" "C11"
-			(at 288.544 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 289.56 185.4199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 286.7152 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 285.75 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 285.75 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "Ceramic"
-			(at 285.75 184.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "4.7nF"
-			(at 291.084 184.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50 V"
-			(at 291.084 188.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 291.084 186.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp Rating" "X7R"
-			(at 285.75 184.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Current" ""
-			(at 285.75 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 285.75 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f429e8ee-834c-4579-b569-c0c642c69f1a")
-		)
-		(pin "2"
-			(uuid "02b7ce9b-607c-43df-9294-b99203f7ec43")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8555,7 +8643,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206JR-075K6L"
+		(property "MPN" "AC0603JR-075K6L"
 			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8618,6 +8706,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "YAG3683CT-ND"
 			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8721,7 +8820,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206JR-075K6L"
+		(property "MPN" "AC0603JR-075K6L"
 			(at 350.52 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8784,6 +8883,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 350.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "YAG3683CT-ND"
 			(at 350.52 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9074,6 +9184,17 @@
 				)
 			)
 		)
+		(property "DPN" "ED1409-ND"
+			(at 233.68 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94bc1771-6e06-4587-9292-d1d0071cb8bd")
 		)
@@ -9241,7 +9362,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206JR-075K6L"
+		(property "MPN" "AC0603JR-075K6L"
 			(at 279.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9314,6 +9435,17 @@
 				)
 			)
 		)
+		(property "DPN" "YAG3683CT-ND"
+			(at 279.4 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "703d352c-560b-41d3-9d42-086f48f44d30")
 		)
@@ -9324,6 +9456,152 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 292.1 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fb0687c-f9bc-454b-94bc-0e370e047ee6")
+		(property "Reference" "R6"
+			(at 290.322 174.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_US"
+			(at 292.608 177.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 292.354 178.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 292.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603JR-0710KL"
+			(at 292.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10 kOhms"
+			(at 287.02 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5 %"
+			(at 290.83 172.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp Co" "100 ppm/C"
+			(at 294.64 174.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 295.402 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "311-10KGRCT-ND"
+			(at 292.1 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "394a295c-2152-4562-a525-f099d6ecc1b5")
+		)
+		(pin "2"
+			(uuid "2e7a7921-49f6-4f22-b515-895c70f047f0")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9430,6 +9708,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "945-1806-5-ND"
 			(at 260.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9630,6 +9919,28 @@
 				)
 			)
 		)
+		(property "DPN" "AT42QT1010-TSHRCT-ND"
+			(at 342.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AT42QT1010-TSHR"
+			(at 342.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39ab463d-64a8-42af-b6e0-4e87dfec0078")
 		)
@@ -9820,6 +10131,28 @@
 				)
 			)
 		)
+		(property "MPN" "MCP4716A3T-E/CH"
+			(at 262.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "MCP4716A3T-E/CHCT-ND"
+			(at 262.89 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "88ee363e-36e8-4c9a-85b8-5780c45dce7a")
 		)
@@ -9842,173 +10175,6 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 356.87 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9afd4af3-7abc-41fb-bd0c-ed0c473f3d46")
-		(property "Reference" "C12"
-			(at 359.664 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 360.68 185.4199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 357.8352 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 356.87 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 356.87 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "Ceramic"
-			(at 356.87 184.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "4.7nF"
-			(at 362.204 184.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50 V"
-			(at 362.204 188.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 362.204 186.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp Rating" "X7R"
-			(at 356.87 184.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Current" ""
-			(at 356.87 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 356.87 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "526f424e-d264-4e03-a2c7-c63a1ca96ceb")
-		)
-		(pin "2"
-			(uuid "8c56b63a-56a8-4539-beae-81bbfabdd7dc")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10232,6 +10398,28 @@
 				)
 			)
 		)
+		(property "MPN" "113991254"
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "1597-113991254-ND"
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "de379b13-00dc-404a-a820-3534bbb01a30")
 		)
@@ -10350,7 +10538,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C472K5RACTU"
 			(at 210.82 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10413,18 +10601,7 @@
 				)
 			)
 		)
-		(property "Average Current" ""
-			(at 210.82 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
+		(property "DPN" "399-C0603C472K5RACTUCT-ND"
 			(at 210.82 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10517,7 +10694,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 161.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10592,6 +10769,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 161.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 161.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10869,7 @@
 				)
 			)
 		)
-		(property "Average Current" ""
+		(property "MPN" "AT42QT1010-TSHR"
 			(at 196.85 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10692,7 +10880,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "DPN" "AT42QT1010-TSHRCT-ND"
 			(at 196.85 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10752,7 +10940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
+		(property "Value" "EEE-FTH101XAP"
 			(at 74.93 125.9839 0)
 			(hide yes)
 			(show_name no)
@@ -10871,6 +11059,17 @@
 				)
 			)
 		)
+		(property "DPN" "PCE5024TR-ND"
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e720c710-416a-45e4-a97e-fae0d95ced11")
 		)
@@ -10954,7 +11153,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 185.42 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11029,6 +11228,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 185.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 185.42 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11527,6 +11737,17 @@
 				)
 			)
 		)
+		(property "DPN" ""
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "310dbef6-a592-4e21-9b83-74530616b88d")
 		)
@@ -11915,7 +12136,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 331.47 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11990,6 +12211,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 331.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 331.47 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -12155,6 +12387,17 @@
 				)
 			)
 		)
+		(property "DPN" "13-SMD2016B100TF/33CT-ND"
+			(at 132.08 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0361e7c2-d768-4052-bbaa-2edd68e26a15")
 		)
@@ -12292,6 +12535,17 @@
 				)
 			)
 		)
+		(property "DPN" "TS12A4515D-ND"
+			(at 328.93 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8c5494de-6f2a-47f1-84e8-f09816f1b79b")
 		)
@@ -12397,6 +12651,162 @@
 			(project "Control_Board"
 				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 285.75 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7c2b410-be9d-4a57-b8c5-166b288c0dbe")
+		(property "Reference" "C11"
+			(at 288.544 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 289.56 185.4199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 286.7152 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C472K5RACTU"
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "Ceramic"
+			(at 285.75 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "4.7nF"
+			(at 291.084 184.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 291.084 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 291.084 186.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp Rating" "X7R"
+			(at 285.75 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C472K5RACTUCT-ND"
+			(at 285.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d09018f7-9d5f-4555-9201-69510ba68cf1")
+		)
+		(pin "2"
+			(uuid "1b5bb079-d6de-4454-9510-fab13125bd80")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12579,6 +12989,17 @@
 				)
 			)
 		)
+		(property "DPN" "900-2200980271-ND"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fd7bca6-4a91-4d5f-97c2-db62de7e9b49")
 		)
@@ -12617,7 +13038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
+		(property "Value" "EEE-FTH101XAP"
 			(at 217.17 71.3739 0)
 			(hide yes)
 			(show_name no)
@@ -12736,6 +13157,17 @@
 				)
 			)
 		)
+		(property "DPN" "PCE5024TR-ND"
+			(at 220.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01696615-a29d-4660-b139-406dd1018c74")
 		)
@@ -12818,7 +13250,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12893,6 +13325,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 229.87 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13074,174 +13517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 363.22 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5b6e8df-ac7e-49ea-a471-24a274ee3962")
-		(property "Reference" "R7"
-			(at 361.442 174.498 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_US"
-			(at 363.728 177.038 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 363.474 178.054 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 363.22 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 363.22 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 363.22 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "470 Ohms"
-			(at 358.14 176.276 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5 %"
-			(at 361.95 172.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp Co" "100 ppm/C"
-			(at 365.76 174.244 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 366.522 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Average Current" ""
-			(at 363.22 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 363.22 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e96879c-ee61-4058-8983-95e270b02510")
-		)
-		(pin "2"
-			(uuid "0dbf2202-4349-4207-9305-000d0e8a4a28")
-		)
-		(instances
-			(project "Control_Board"
-				(path "/c2969a2f-6408-42fd-9433-9a0fae6bfa20"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 184.15 0)
 		(mirror y)
@@ -13309,7 +13584,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31B104KBCNNNC"
+		(property "MPN" "C0603C104K5RAC9109"
 			(at 260.35 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13384,6 +13659,17 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 260.35 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RAC9109CT-ND"
 			(at 260.35 184.15 0)
 			(hide yes)
 			(show_name no)
