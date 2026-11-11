@@ -4826,8 +4826,8 @@
 			(uuid "f1a171b8-02b4-4183-bc69-cb92b4dfb24b")
 			(effects
 				(font
-					(size 1.1684 1.1684)
-					(thickness 0.1016)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8199,11 +8199,11 @@
 			(at 7.62 -7.62 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3575e5e5-8bda-43d0-9c26-dc4e3c1b4ccf")
+			(uuid "c1fa3e17-ceb4-42c9-907c-e54c274295cc")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8211,7 +8211,7 @@
 			(at 8.128 -22.122 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e39d1d12-f55f-4a92-8f2e-5e24d1b7c3dd")
+			(uuid "2070ee56-c4d9-4632-a7a7-ad4cecbb77b2")
 			(effects
 				(font
 					(size 1 1)
@@ -8224,7 +8224,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38888639-7a6a-4669-9da7-d639f0a32063")
+			(uuid "77b9f892-99c0-4289-83f4-125d571275d4")
 			(effects
 				(font
 					(size 1 1)
@@ -8237,7 +8237,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c9fe2e4-e113-4fa5-b65e-290f17f82c89")
+			(uuid "395e34c1-9a6e-4444-957d-fe7df31023da")
 			(effects
 				(font
 					(size 1 1)
@@ -14516,52 +14516,6 @@
 		(layer "Edge.Cuts")
 		(uuid "ac7a4d5e-d067-4967-8f4c-872646392d81")
 	)
-	(gr_text "MOLEX\nRIGHT"
-		(at 148.5011 142.753603 0)
-		(layer "F.SilkS")
-		(uuid "4b6b030f-8bc8-4267-9b58-0801e720dd7c")
-		(effects
-			(font
-				(size 0.46 0.46)
-				(thickness 0.04)
-			)
-		)
-	)
-	(gr_text "USB"
-		(at 144.893762 76.165804 0)
-		(layer "F.SilkS")
-		(uuid "8b14df27-13b8-467e-b112-7932238bff8c")
-		(effects
-			(font
-				(size 0.93472 0.93472)
-				(thickness 0.08128)
-			)
-		)
-	)
-	(gr_text "GND"
-		(at 144.9451 143.385603 90)
-		(layer "F.SilkS")
-		(uuid "d46f99ba-7429-4976-80e7-c180f427e1dc")
-		(effects
-			(font
-				(size 0.93472 0.93472)
-				(thickness 0.08128)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "24V"
-		(at 151.1681 143.385603 90)
-		(layer "F.SilkS")
-		(uuid "da252221-c7f7-40cf-b33c-f0fb24bd161b")
-		(effects
-			(font
-				(size 0.93472 0.93472)
-				(thickness 0.08128)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "CONTROL BOARD V2 REV2"
 		(at 155.0011 158.503603 90)
 		(layer "F.SilkS")
@@ -14590,6 +14544,52 @@
 		(at 162.698423 56.357032 0)
 		(layer "F.SilkS")
 		(uuid "b7e810ce-30e3-4a32-b68c-a684386cab40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "USB"
+		(at 144.8181 75.948603 0)
+		(layer "F.SilkS")
+		(uuid "8b14df27-13b8-467e-b112-7932238bff8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RA"
+		(at 148.506866 146.900594 0)
+		(layer "F.SilkS")
+		(uuid "4b6b030f-8bc8-4267-9b58-0801e720dd7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 144.8181 143.639603 90)
+		(layer "F.SilkS")
+		(uuid "d46f99ba-7429-4976-80e7-c180f427e1dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "24V"
+		(at 151.259365 143.495203 90)
+		(layer "F.SilkS")
+		(uuid "da252221-c7f7-40cf-b33c-f0fb24bd161b")
 		(effects
 			(font
 				(size 1 1)
@@ -16477,14 +16477,6 @@
 		(layer "F.Cu")
 		(net "/PWRBTN")
 		(uuid "f1c18cb7-2cac-4db8-8a67-15c5c2a13dd9")
-	)
-	(segment
-		(start 156.872699 89.554102)
-		(end 156.8562 89.537603)
-		(width 0.508)
-		(layer "F.Cu")
-		(net "/+24V")
-		(uuid "344dab72-3d89-4191-ab61-a06cba9fc740")
 	)
 	(segment
 		(start 151.7511 55.576603)
