@@ -8176,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0603"
 			(at 208.788 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8821,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0603"
 			(at 193.802 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +8998,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0603"
 			(at 354.838 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +9540,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0603"
 			(at 280.162 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
